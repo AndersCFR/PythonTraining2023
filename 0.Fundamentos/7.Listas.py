@@ -68,3 +68,14 @@ print(listaAlumnos)
 print('Anita' in listaAlumnos)
 print('Fabian' in listaAlumnos)
 
+# Hacer una copia de una lista
+copiaLista = listaAlumnos[::]
+print(copiaLista)
+copiaLista2 = listaAlumnos.copy()
+print(copiaLista2)
+
+# Encontrar el índice de un elemento en la lista
+print(listaAlumnos.index('Pepito'))
+
+# Solicito el índice de un valor que no se encuentra en la lista
+print(listaAlumnos.index('Maria'))
