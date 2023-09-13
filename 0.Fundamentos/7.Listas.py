@@ -53,6 +53,18 @@ print(listaAlumnos)
 listaAlumnos.pop(1)
 print(listaAlumnos)
 
-# Retir un valor de la lista
+# Retira un valor de la lista
 listaAlumnos.remove('Pablito')
 print(listaAlumnos)
+
+listaAlumnos.extend(['Alejandro', 'Alejandro'])
+print(listaAlumnos)
+
+# Remove con dos elementos iguales
+listaAlumnos.remove('Alejandro')
+print(listaAlumnos)
+
+# Métodos y operadores de las listas
+print('Anita' in listaAlumnos)
+print('Fabian' in listaAlumnos)
+
