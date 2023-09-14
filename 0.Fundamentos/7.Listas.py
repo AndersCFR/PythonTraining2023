@@ -77,5 +77,31 @@ print(copiaLista2)
 # Encontrar el índice de un elemento en la lista
 print(listaAlumnos.index('Pepito'))
 
-# Solicito el índice de un valor que no se encuentra en la lista
-print(listaAlumnos.index('Maria'))
+# Solicito el índice de un valor que no se encuentra en la lista, genera un error
+#print(listaAlumnos.index('Maria'))
+
+# ¿Qué pasaría si solicita un índice de un elemento que aparece más de una vez?
+listaAlumnos.append('Pepito')
+print(listaAlumnos)
+print(listaAlumnos.index('Pepito'))
+
+# Ordenar una lista
+listaAlumnos.sort()
+print(listaAlumnos)
+
+listaNumeros = [2, 6, 9, 1, -4, 3.14]
+listaNumeros.sort()
+print(listaNumeros)
+
+listaNumeros.sort(reverse=True)
+print(listaNumeros)
+
+# Contar elementos en una lista
+print(listaAlumnos.count('Anita'))
+
+# Crear una lista vacía
+listaVacia = []
+print(listaVacia)
+
+# Desempaquetado/empaquetado
+# Lista de lista
