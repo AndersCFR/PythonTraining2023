@@ -125,6 +125,18 @@ nombre1, *nombres = listaAlumnos
 print(nombre1)
 print(nombres)
 
-# 
+# desempaquetaddo 3
+*nombres2, antepenultimoNombre, ultimoNombre = listaAlumnos
+print(nombres2)
+print(antepenultimoNombre)
+print(ultimoNombre)
 
 # Lista de lista
+matriz = [
+    [0,1,2],
+    [1,1,3],
+    [0,9,8]
+]
+print(matriz)
+
+print(matriz[1][1])
