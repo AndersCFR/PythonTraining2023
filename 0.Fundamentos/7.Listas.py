@@ -103,5 +103,28 @@ print(listaAlumnos.count('Anita'))
 listaVacia = []
 print(listaVacia)
 
+# Limpiar una lista
+temp = listaAlumnos.copy()
+print(f'Lista: {temp}')
+temp.clear()
+print(f'Lista limpiada: {temp}')
+
 # Desempaquetado/empaquetado
+nombre1, nombre2, nombre3 = listaAlumnos[0:3]
+print(nombre1)
+print(nombre2)
+print(nombre3)
+
+# Empaquetado de variables en lista
+numero1 = 45.6798
+lista_empaqueta = [nombre1, nombre2, numero1]
+print(lista_empaqueta)
+
+# desempaqueta 2
+nombre1, *nombres = listaAlumnos
+print(nombre1)
+print(nombres)
+
+# 
+
 # Lista de lista
