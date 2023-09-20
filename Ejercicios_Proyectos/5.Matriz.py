@@ -6,12 +6,12 @@ ejem = [0]*4
 
 print(ejem)
 
-# Pedir las dimensiones de la matriz
+# 1. Pedir las dimensiones de la matriz
 
-# Crear una matriz con 0s con las dimensiones ingresadas por el usuario
+# 2. Crear una matriz con 0s con las dimensiones ingresadas por el usuario
 # [[0, 0], [0,0]]
 
-# Pedir al usuario el valor de cada posición de la matriz (for)
+# 3. Pedir al usuario el valor de cada posición de la matriz (for)
 # [[8, 5], [6, 6]]
 
-# Print
+# 4. Presentar la matriz al usuario
